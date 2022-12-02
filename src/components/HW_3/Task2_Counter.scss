@@ -1,0 +1,32 @@
+.counter {
+  background-color: rgba(255, 243, 116, 0.66);
+  padding: 30px 0;
+  border: #520cd7 7px double;
+  border-radius: 30%;
+
+  button {
+    height: 60px;
+    width: 110px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+    border: #520cd7 solid 3px;
+    border-radius: 30%;
+  }
+
+  &__value {
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    color: #520cd7;
+  }
+
+  &__plus {
+    background-color: green;
+  }
+
+  &__minus {
+    background-color: red;
+  }
+}
